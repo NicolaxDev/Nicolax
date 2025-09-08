@@ -10,7 +10,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`antialiased bg-accent text-white`}
+        className={`antialiased bg-accent text-white overflow-x-hidden`}
       >
         <MainHeader />
         {children}

@@ -23,7 +23,7 @@ export default function MainHeader() {
   ]
 
   return (
-    <header className="w-screen flex items-center justify-center">
+    <header className="w-screen flex items-center justify-center fixed top-0">
       <nav className="flex items-center justify-around w-[90%] sm:w-[60%] p-4 my-4">
         {
             links.map(({ link, icon }) => (

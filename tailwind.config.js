@@ -9,13 +9,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        accent: '#9E6EFF',
-        darkAccent: '#6E42C8'
+        accent: "#9E6EFF",
+        darkAccent: "#6E42C8",
       },
       fontFamily: {
-        leagueSpartan: ['League Spartan'],
+        leagueSpartan: ["League Spartan"],
       },
     },
   },
   plugins: [],
-}
+};
