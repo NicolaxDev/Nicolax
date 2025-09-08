@@ -1,0 +1,22 @@
+.link-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  background: #9e6eff;
+  transition: box-shadow 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.link-btn.inside {
+  box-shadow: inset 1px 1px 15px #7753bf, inset -1px -1px 15px #7753bf;
+}
+
+.link-btn.inside:hover {
+  box-shadow: 5px 5px 25px #7753bf, -5px -5px 25px #7753bf;
+  transform: translateY(-2px);
+}
+
+.link-btn.outside {
+  box-shadow: 5px 5px 25px #7753bf, -5px -5px 25px #7753bf;
+  transform: translateY(-2px);
+}

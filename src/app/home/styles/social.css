@@ -1,0 +1,6 @@
+a {
+  border-radius: 20px;
+  background: linear-gradient(145deg, #8e63e6, #a976ff);
+  box-shadow: 20px 20px 60px #6f4db3, -20px -20px 60px #cd8fff;
+  display: inline-block;
+}
