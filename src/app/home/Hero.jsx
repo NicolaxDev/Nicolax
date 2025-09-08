@@ -11,7 +11,7 @@ export default function Hero() {
   ]
 
   return (
-    <main className='mt-32 sm:mt-20 flex flex-col sm:flex-row w-full items-center justify-around h-[70vh]'>
+    <main className='mt-32 sm:mt-20 flex flex-col sm:flex-row w-full items-center justify-around sm:pb-0 pb-10 h-[70vh]'>
         <div className='sm:w-[50%] w-[90%] px-4 sm:text-start text-center'>
             <h1 className='text-6xl font-black'>Nicolax</h1>
             <span className='text-darkAccent text-lg'>“Fueled by coffee, debugged with passion”</span>

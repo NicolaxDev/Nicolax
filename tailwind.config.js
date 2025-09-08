@@ -11,6 +11,9 @@ module.exports = {
       colors: {
         accent: "#9E6EFF",
         darkAccent: "#6E42C8",
+        react: "#61DBFB",
+        next: "#000000",
+        tailwind: "#06B6D4",
       },
       fontFamily: {
         leagueSpartan: ["League Spartan"],
