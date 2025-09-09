@@ -14,11 +14,11 @@ export default function MainHeader() {
 
   const links = [
     { link: "/", icon: <TiHome /> },
-    { link: "/blog", icon: <GiOpenBook /> },
+    { link: "/projects", icon: <FaCode /> },
   ];
 
   const links2 = [
-    { link: "/projects", icon: <FaCode /> },
+    { link: "/blog", icon: <GiOpenBook /> },
     { link: "/contact", icon: <IoIosMail /> },
   ]
 
