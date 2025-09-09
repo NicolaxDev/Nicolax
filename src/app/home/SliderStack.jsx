@@ -31,7 +31,7 @@ export default function SliderStack() {
     // mobile
     const items = stack.concat(stack);
     return (
-      <div className="slider mobile">
+      <div className="slider mobile mt-0">
         <div className="list">
           {items.map((tech, idx) => (
             <div key={idx} className="item" style={{ "--color": tech.color }}>
@@ -49,7 +49,7 @@ export default function SliderStack() {
   // desktop
   return (
     <div
-      className="slider desktop"
+      className="slider desktop mt-10"
       style={{ "--width": "100px", "--height": "15vh", "--quantity": stack.length }}
     >
       <div className="list">

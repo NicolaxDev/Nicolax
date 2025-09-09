@@ -6,8 +6,8 @@ import { GoProjectSymlink } from "react-icons/go";
 
 export default function Currently() {
   return (
-    <section className='flex items-center justify-center flex-col my-5 sm:my-20 font-leagueSpartan'>
-        <h2 className='text-4xl font-bold'>I'm curently work in...</h2>
+    <section className='flex items-center justify-center flex-col my-10 sm:my-20 font-leagueSpartan'>
+        <h2 className='text-4xl font-bold mb-10'>I'm curently work in...</h2>
         <div className='px-8 sm:px-0'>
             <CurrentProject current={projectImage} name="Mitrapets" description="Mitrapets is a web service to adopt pets, pets who need a second life oportunity" link="https://mitrapets.vercel.app/" />
         </div>
