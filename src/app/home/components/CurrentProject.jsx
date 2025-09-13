@@ -14,7 +14,7 @@ export default function CurrentProject({ current, name, description, link }) {
     {title: 'TailwindCSS', icon: <RiTailwindCssFill />, color: "#0E7490"},
   ]
   return (
-    <div className="current sm:hover:scale-105 transition-all duration-300 ease-in-out text-white rounded-xl sm:p-4 p-4 flex flex-col items-start font-leagueSpartan gap-4 sm:gap-8 mt-10">
+    <div className="current sm:hover:scale-105 transition-all duration-300 ease-in-out text-darkAccent rounded-xl sm:p-4 p-4 flex flex-col items-start font-leagueSpartan gap-4 sm:gap-8 mt-10">
       <div className="flex justify-between items-center gap-4 ">
         <Image
           src={current}
@@ -24,7 +24,7 @@ export default function CurrentProject({ current, name, description, link }) {
           className="rounded-full"
         />
         <div>
-          <h2 className="font-semibold text-2xl">{name}</h2>
+          <h2 className="font-semibold text-2xl text-accent">{name}</h2>
           <ul className="flex items-center sm:gap-1 gap-[2px] ">
               {
                 techs.map((tech, index)=>(

@@ -1,6 +1,5 @@
 nav {
   border-radius: 50px;
-  background: linear-gradient(145deg, #9e6eff, #9e6eff);
-  box-shadow: 20px 20px 80px #7753bf, -20px -20px 80px #7753bf;
+  background: #e0e0e0;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
 }
-

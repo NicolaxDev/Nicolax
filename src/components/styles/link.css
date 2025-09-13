@@ -3,20 +3,19 @@
   align-items: center;
   justify-content: center;
   border-radius: 50px;
-  background: #9e6eff;
+  background: #e0e0e0;
   transition: box-shadow 0.5s ease-in-out, transform 0.5s ease-in-out;
 }
-
 .link-btn.inside {
-  box-shadow: inset 1px 1px 15px #7753bf, inset -1px -1px 15px #7753bf;
+  box-shadow: inset 1px 1px 15px #c1c0c0, inset -1px -1px 15px #f5f5f5;
 }
 
 .link-btn.inside:hover {
-  box-shadow: 5px 5px 25px #7753bf, -5px -5px 25px #7753bf;
+  box-shadow: 5px 5px 25px #b0b0b0, -5px -5px 25px #f5f5f5;
   transform: translateY(-2px);
 }
 
 .link-btn.outside {
-  box-shadow: 5px 5px 25px #7753bf, -5px -5px 25px #7753bf;
+  box-shadow: 5px 5px 25px #b0b0b0, -5px -5px 25px #f5f5f5;
   transform: translateY(-2px);
 }

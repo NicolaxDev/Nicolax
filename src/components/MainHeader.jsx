@@ -29,7 +29,7 @@ export default function MainHeader() {
             links.map(({ link, icon }) => (
                 <LinkHeader key={link} link={link} icon={icon} pathname={pathname} />
         ))}
-        <span className="hidden sm:flex font-leagueSpartan text-3xl font-black">Nicolax</span>
+        <span className="hidden sm:flex font-leagueSpartan text-3xl font-extrabold">Nicolax</span>
         {
             links2.map(({link, icon}) => (
                 <LinkHeader key={link} link={link} icon={icon} pathname={pathname} />

@@ -11,7 +11,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`antialiased bg-accent text-white overflow-x-hidden`}
+        className={`antialiased bg-background text-darkAccent overflow-x-hidden`}
       >
         <MainHeader />
         {children}

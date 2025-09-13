@@ -11,7 +11,7 @@ export default function Currently() {
         <div className='px-8 sm:px-0'>
             <CurrentProject current={projectImage} name="Mitrapets" description="Mitrapets is a web service to adopt pets, pets who need a second life oportunity" link="https://mitrapets.vercel.app/" />
         </div>
-        <a href="/projects" className='inline-flex mt-16 social-link p-4 hover:scale-95 ease-in-out duration-200 font-medium '> Explore another projects {"->"} </a>
+        <a href="/projects" className='mt-16 text-lg social-projects p-4 hover:scale-95 ease-in-out duration-200 font-medium hover:text-accent'> Explore another projects <GoProjectSymlink /> </a>
     </section>
   )
 }

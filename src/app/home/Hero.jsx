@@ -5,7 +5,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import Social from "./components/Social";
 import "./styles/hero.css";
-import { animate, createScope, createSpring, createDraggable } from "animejs";
+import { animate, createScope } from "animejs";
 import { useRef, useEffect } from "react";
 
 export default function Hero() {
@@ -46,7 +46,7 @@ export default function Hero() {
       <main className="flex flex-col sm:flex-row w-full items-center justify-center h-[70vh]">
         <div className="heroText opacity-0 sm:opacity-10 sm:w-[50%] w-[90%] sm:mb-0 mb-16 px-4 sm:text-start text-center">
           <h1 className="nicolax text-7xl sm:text-9xl font-black">NICOLAX</h1>
-          <span className="text-darkAccent text-lg">
+          <span className="text-darkAccent text-lg font-medium">
             “Fueled by coffee, debugged with passion”
           </span>
           <p className="font-thin text-xl">
